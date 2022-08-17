@@ -1,0 +1,25 @@
+# API
+
+## Get nearest station(lat lon)
+
+## Get next trains for(station_code)
+
+## Get next train(station_code)
+
+## Get Stations
+
+## Get Lines()
+
+## Trip info()
+
+## Get itinerary(start_code, end_code, start=now(), )
+# Calculates all info regarding trip
+# Start/Arrival time
+# Duration
+# Line Changes
+# Station list
+
+- [ ] Git the Proj
+- [ ] Move Station data to db
+- [ ] FastAPI Background Tasks for timing retrieval
+- [ ] Request that updates db with available stations
