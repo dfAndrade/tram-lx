@@ -12,6 +12,7 @@ cryptography==37.0.4
 cssselect==1.1.0
 fastapi==0.79.0
 filelock==3.8.0
+greenlet==1.1.2
 h11==0.13.0
 httptools==0.4.0
 hyperlink==21.0.0
@@ -39,6 +40,7 @@ service-identity==21.1.0
 six==1.16.0
 sniffio==1.2.0
 soupsieve==2.3.2.post1
+SQLAlchemy==1.4.40
 starlette==0.19.1
 tldextract==3.3.1
 Twisted==22.4.0

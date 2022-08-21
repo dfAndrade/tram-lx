@@ -1,7 +1,3 @@
-from dataclasses import dataclass
-from enum import Enum
-from typing import Optional, List
-
 import requests
 
 # 'https://www.metrolisboa.pt/viajar/proximoscomboios/',
@@ -10,24 +6,25 @@ import requests
 from bs4 import BeautifulSoup
 
 
-class Line(Enum):
-    YELLOW = 1
-    RED = 2
-    BLUE = 3
-    GREEN = 4
-
-
-@dataclass
-class Station:
-    name: str
-    code: str
-    lat: float
-    lon: float
-    lines: List[Line]
-    timings: Optional[list] = None
-
-    def __repr__(self):
-        return f'{self.name} ({self.code}) - {self.timings[0] if self.timings else "No trams available"}'
+# class Line(Enum):
+#     YELLOW = 1
+#     RED = 2
+#     BLUE = 3
+#     GREEN = 4
+#
+#
+# @dataclass
+# class Station:
+#     name: str
+#     code: str
+#     lat: float
+#     lon: float
+#     lines: List[Line]
+#     timings: Optional[list] = None
+#
+#     def __repr__(self):
+#         return f'{self.name} ({self.code}) - {self.timings[0] if self.timings else "No trams available"}'
+from app.db.models.station import Station
 
 
 def get_html_document(url):
