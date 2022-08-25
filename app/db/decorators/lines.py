@@ -2,7 +2,7 @@ from typing import List
 
 from sqlalchemy import TypeDecorator, String
 
-from app.db.models import Line
+from app.db.models.line import Line
 
 
 class LineDecorator(TypeDecorator):

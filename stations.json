@@ -1,0 +1,68 @@
+{
+  "lines": {
+    "BLUE":[
+      "Reboleira",
+      "Amadora Este",
+      "Alfornelos",
+      "Pontinha",
+      "Carnide",
+      "Colegio Militar/Luz",
+      "Alto dos Moinhos",
+      "Laranjeiras",
+      "jardim Zoologico",
+      "Praca de Espanha",
+      "S. Sebastiao",
+      "Parque",
+      "Marques de Pombal",
+      "Avenida",
+      "Restauradores",
+      "Baixa-Chiado",
+      "Terreiro do Paco",
+      "Santa Apolonia"
+    ],
+    "YELLOW":[
+      "Odivelas",
+      "Senhor Roubado",
+      "Ameixoeira",
+      "Lumiar",
+      "Quinta das Conchas",
+      "Campo Grande",
+      "Cidade Universitaria",
+      "Entre Campos",
+      "Campo Pequeno",
+      "Saldanha",
+      "Picoas",
+      "Marques do Pombal",
+      "Rato"
+    ],
+    "GREEN":[
+      "Telheiras",
+      "Campo Grande",
+      "Alvalade",
+      "Roma",
+      "Areeiro",
+      "Alameda",
+      "Arroios",
+      "Anjos",
+      "Intendente",
+      "Martim Moniz",
+      "Rossio",
+      "Baixa-Chiado",
+      "Cais do Sodre"
+    ],
+    "RED":[
+      "Aeroporto",
+      "Encarnacao",
+      "Moscavide",
+      "Oriente",
+      "Cabo Ruivo",
+      "Olivais",
+      "Chelas",
+      "Bela Vista",
+      "Olaias",
+      "Alameda",
+      "Saldanha",
+      "S. Sebastiao"
+    ]
+  }
+}

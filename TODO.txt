@@ -1,7 +1,5 @@
 # API
 
-## Get nearest station(lat lon)
-
 ## Get next trains for(station_code)
 
 ## Get next train(station_code)
@@ -12,9 +10,14 @@
 
 ## Trip info()
 
+## Get nearest station(lat lon)
+
 ## Get itinerary(start_code, end_code, start=now(), )
+
 # Calculates all info regarding trip
+
 # Start/Arrival time
+
 # Duration
 # Line Changes
 # Station list
